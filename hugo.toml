@@ -13,6 +13,10 @@ hostname = 'teisybe.com'
 
 [menu]
   [[menu.header]]
+    name = "tags"
+    weight = 1
+    url = "/tags"
+ [[menu.header]]
     name = "about"
     weight = 0
     url = "/about"
