@@ -10,3 +10,9 @@ title = "Teisybe's Blog"
 author = 'Teisybe'
 user = 'you'
 hostname = 'teisybe.com'
+
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "/about"
