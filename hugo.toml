@@ -14,5 +14,5 @@ hostname = 'teisybe.com'
 [menu]
   [[menu.header]]
     name = "about"
-    weight = 1
+    weight = 0
     url = "/about"
