@@ -1,0 +1,18 @@
+<div class="socialNavbar">
+    <ul>
+        {{ range sort .Site.Params.social "key"}}
+        <li>
+            {{ if and (isset . "icon") (isset . "iconVendor") }}
+                <a href="{{ .url | safeURL }}" aria-hidden="true" title="{{ .name }}" {{ if .rel }} rel="{{ .rel }}"{{ end }} target="_blank" rel="noopener noreferrer">
+                    {{ partial "icons/icon" (dict
+                       "vendor" .iconVendor 
+                       "name" .icon
+                    ) }}
+                </a>
+            {{ else }}
+                {{ errorf "You need to specify icon and icon vendor in config file" }}
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</div>

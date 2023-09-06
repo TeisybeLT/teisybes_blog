@@ -5,11 +5,34 @@ title = "Teisybe's Blog"
 [module]
   [[module.imports]]
     path = 'github.com/LordMathis/hugo-theme-nightfall'
+  [[module.imports]]
+    path = 'github.com/hugomods/icons/vendors/font-awesome'
     
 [params]
 author = 'Teisybe'
 user = 'you'
 hostname = 'teisybe.com'
+
+[[params.social]]
+key = 0
+name = "Github"
+url = "https://github.com/TeisybeLT"
+iconVendor = "font-awesome-brands"
+icon = "github"
+
+[[params.social]]
+key = 1
+name = "Mastodon"
+url = "https://infosec.exchange/@teisybe"
+iconVendor = "font-awesome-brands"
+icon = "mastodon"
+
+[[params.social]]
+key = 2
+name = "Email"
+url = "mailto:blog@teisybe.com"
+iconVendor = "font-awesome-solid"
+icon = "envelope"
 
 [menu]
   [[menu.header]]

@@ -1,0 +1,25 @@
+@import "../utils/variables";
+
+.socialNavbar {
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    li {
+      display: inline;
+      border-right: 1px solid $white;
+      font-size: 2em;
+    }
+    li:last-child {
+      border-right: none;
+    }
+  }
+  a {
+    margin: 0em 1.5em 0em 1.5em;
+    color: $white;
+    text-shadow: $black 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+  }
+}
