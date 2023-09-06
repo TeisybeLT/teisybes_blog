@@ -13,8 +13,8 @@ During the day - I work as a software developer in your regular run of the mill 
 
 If you wish to contact me, you can do so using these links:
 
-* Github
-* Mastodon
-* Email
+* [{{< icons/icon fab github >}} Github](http://github.com/TeisybeLT)
+* [{{< icons/icon fab mastodon >}} Mastodon](https://infosec.exchange/@teisybe)
+* [{{< icons/icon fas envelope >}} Email](mailto:blog@teisybe.com)
 
 If You found any mistakes in this blog, please submit a PR to the repository of this website [TeisybeLT/teisybes_blog](https://github.com/TeisybeLT/teisybes_blog). Any help is greatly appreciated and you will be mentioned in the [Contributors]({{< ref "/contributions" >}}) list.
