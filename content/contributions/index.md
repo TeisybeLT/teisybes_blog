@@ -16,3 +16,4 @@ Currently, there are no contributions to this website :( You can be the first on
 * [Fira Mono](https://fonts.google.com/specimen/Fira+Mono) font by Carrois Apostrophe
 * [OpenSans](https://fonts.google.com/specimen/Open+Sans) font by Steve Matteson
 * [Github](https://github.com) for hosting the source code of this blog and automating deployment with Github Actions
+* [Creative Commons](https://creativecommons.org/) for their license and the wonderful license picker tool
