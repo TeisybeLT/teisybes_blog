@@ -1,0 +1,27 @@
+name: Build and deploy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hugo-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v2.6.0
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - uses: actions/checkout@v4
+        
+      - name: Build site
+        run: hugo --minify
+          
+      - name: Upload artefacts
+        uses: actions/upload-artifact@v3
+        with:
+          retention-days: 1
+          name: ${{ vars.SITE_ARTEFACT_NAME }}
+          path: public/*
