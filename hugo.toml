@@ -40,10 +40,14 @@ icon = "envelope"
     weight = 1
     url = "/posts"
   [[menu.header]]
-    name = "tags"
+    name = "categories"
     weight = 2
+    url = "/categories"
+  [[menu.header]]
+    name = "tags"
+    weight = 3
     url = "/tags"
  [[menu.header]]
     name = "about"
-    weight = 3
+    weight = 4
     url = "/about"
