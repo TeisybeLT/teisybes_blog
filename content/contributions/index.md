@@ -5,7 +5,7 @@ draft: false
 showMetadata: false
 ---
 
-Currently, there are no contributions to this website :( You can be the first one!
+* [2bitsin](https://github.com/2bitsin) for helping me proof-read and write [floppy.img crackme post](/posts/writeups/floppy_img)
 
 ## Things that have made this website possible
 
