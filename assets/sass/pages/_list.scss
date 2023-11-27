@@ -1,0 +1,25 @@
+@import "../utils/variables";
+
+/* DEFAULTS */
+.postListItem{
+    width: 250px;
+}
+
+
+/* MEDIUM DEVICES */
+@media screen and (min-width: 321px){
+
+    .postListItem{
+       width: 75vw;
+    }
+    
+}
+
+/* LARGE DEVICES */
+@media screen and (min-width: 900px){
+
+    .postListItem{
+        width: 960px;
+    }
+    
+}
