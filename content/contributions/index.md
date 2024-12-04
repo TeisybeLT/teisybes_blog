@@ -6,6 +6,7 @@ showMetadata: false
 ---
 
 * [2bitsin](https://github.com/2bitsin) for helping me proof-read and write [floppy.img crackme post](/posts/writeups/floppy_img)
+* [Jaheim Price](https://github.com/JaheimPrice) for providing various fixes and comments regarding layout, project setup, build issues and miscellaneous web-devy things
 
 ## Things that have made this website possible
 
